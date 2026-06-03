@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGFRED-Tech Dashboard</title><link rel="stylesheet" href="style.css">
+
+<style>
+
+    body{
+        background: linear-gradient(135deg,#020617,#0f172a,#1e3a8a);
+    }
+
+    .dashboard{
+        width:90%;
+        max-width:900px;
+        background:rgba(255,255,255,0.1);
+        backdrop-filter:blur(10px);
+        border-radius:20px;
+        padding:40px;
+        color:white;
+        text-align:center;
+        box-shadow:0 15px 35px rgba(0,0,0,0.4);
+    }
+
+    .dashboard h1{
+        color:#38bdf8;
+        margin-bottom:20px;
+    }
+
+    .cards{
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+        justify-content:center;
+        margin-top:30px;
+    }
+
+    .card{
+        width:220px;
+        background:rgba(255,255,255,0.08);
+        padding:20px;
+        border-radius:15px;
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-8px);
+        box-shadow:0 10px 20px rgba(56,189,248,0.3);
+    }
+
+    .card h3{
+        color:#38bdf8;
+        margin-bottom:10px;
+    }
+
+    .logout-btn{
+        display:inline-block;
+        margin-top:30px;
+        padding:12px 25px;
+        background:#38bdf8;
+        color:white;
+        text-decoration:none;
+        border-radius:10px;
+        font-weight:bold;
+    }
+
+    .logout-btn:hover{
+        background:#0ea5e9;
+    }
+
+</style>
+
+</head><body><div class="dashboard"><h1>Welcome to KINGFRED-Tech Dashboard</h1>
+
+<p>
+    Cloud Computing | Networking | Cyber Security | Technology Solutions
+</p>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Cloud Computing</h3>
+        <p>Manage cloud resources and services.</p>
+    </div>
+
+    <div class="card">
+        <h3>Networking</h3>
+        <p>Design and manage enterprise networks.</p>
+    </div>
+
+    <div class="card">
+        <h3>Cyber Security</h3>
+        <p>Protect systems against cyber threats.</p>
+    </div>
+
+</div>
+
+<a href="index.html" class="logout-btn">
+    Logout
+</a>
+
+</div></body>
+</html>
